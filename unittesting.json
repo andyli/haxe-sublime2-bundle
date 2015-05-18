@@ -1,4 +1,3 @@
 {
-    "deferred": true,
-    "output": "tests/result.txt"
+    "deferred": true
 }

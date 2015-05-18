@@ -5,7 +5,7 @@ environment:
         PACKAGE: "Haxe"
         HAXELIB_ROOT: C:\projects\haxelib
     matrix:
-        # - SUBLIME_TEXT_VERSION : "2"
+        - SUBLIME_TEXT_VERSION : "2"
         - SUBLIME_TEXT_VERSION : "3"
 
 install:
