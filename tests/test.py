@@ -56,6 +56,8 @@ class TestHxml(DeferrableTestCase):
             window.run_command(cmd)
             for _ in self.assertTrueWait(expect):
                 yield
+
+            yield 500
             os.remove(output_path)
 
         # clean up
