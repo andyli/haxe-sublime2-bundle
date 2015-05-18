@@ -3,6 +3,7 @@ version: "{build}"
 environment:
     global:
         PACKAGE: "Haxe"
+        SUBL: c:\st\sublime_text.exe
         HAXELIB_ROOT: C:\projects\haxelib
     matrix:
         - SUBLIME_TEXT_VERSION : "2"
